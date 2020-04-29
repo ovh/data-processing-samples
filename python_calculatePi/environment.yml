@@ -1,0 +1,6 @@
+name: condaenv
+channels:
+  - defaults
+dependencies:
+  - python=3.7.6
+  - pyspark==2.4.5
