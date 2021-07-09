@@ -1,0 +1,14 @@
+name: condaenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.6
+  - pyspark
+  - cartopy
+  - matplotlib
+  - pip:
+    - python-swiftclient
+    - python-keystoneclient
+    - quinn
+    - pyyaml
