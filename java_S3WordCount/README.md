@@ -4,7 +4,7 @@ This program is created to be run in OVHcloud data processing service with Apach
 
 ## Spark version compatibility matrix
 
-update your Spark version and dependency in your pom.xml
+update Spark version and dependency in pom.xml according to your need.
 
 |               Spark      | Dependencies |
 |--------------------------|--------------------------|
