@@ -14,9 +14,9 @@ public final class JavaWordCount {
 
     public static void main(String[] args) throws Exception {
 
-        String myAccessKey = "3c016571be9b44758d4fa73f1da1daf9";
-        String mySecretKey = "7129066747854c63bf7054967ad69bd8";
-        String bucket = "textfile";
+        String myAccessKey = "<S3 Access key>";
+        String mySecretKey = "<S3 password>";
+        String bucket = "<Ovhcloud Object storage container name>";
         String filepath = "novel.txt";
         String filepath_result = "result.txt"; 
         SparkSession spark = SparkSession
